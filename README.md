@@ -1,18 +1,26 @@
 # hycu
 
-To recombine the split files into the original file using 7-Zip on a Windows machine, follow these steps:
-	1	Install 7-Zip if you haven't already. You can download it from the official website: https://www.7-zip.org/
-	2	Move all the split files into a single folder. Make sure that the folder contains only the split files you want to merge.
-	3	Open the folder containing the split files in Windows File Explorer.
-	4	Select the first split file (with the lowest suffix, e.g., output.z01). Press Ctrl + A to select all the split files in the folder.
-	5	Right-click on the selected files and choose 7-Zip > Extract Here from the context menu.
+Recombining Split Files using 7-Zip on Windows
+Method 1: Using Windows File Explorer
+Install 7-Zip: If you haven't already, download and install 7-Zip from the official website.
 
-7-Zip will automatically merge the split files into a single file. The merged file will be created in the same folder as the split files
+Organize the Split Files: Move all the split files into a single folder. Ensure the folder only contains the split files you want to merge.
 
-Alternatively, you can use the 7-Zip File Manager to recombine the files:
-	1	Launch the 7-Zip File Manager and navigate to the folder containing the split files.
-	2	Select the first split file in the sequence (e.g., output.z01).
-	3	Right-click on the selected file and choose Combine files from the context menu8.
-	4	Choose the destination folder for the merged file and click OK.
+Open the Folder: Access the folder containing the split files using Windows File Explorer.
 
-7-Zip will merge the split files into the original file, which will be saved in the specified destination folder.
+Select Split Files: Click on the first split file (with the lowest suffix, e.g., output.z01). Then, press Ctrl + A to select all the split files in the folder.
+
+Merge the Files: Right-click on the selected files and navigate through the context menu: 7-Zip > Extract Here.
+
+7-Zip will automatically merge the split files into a single file. The merged file will appear in the same folder as the split files.
+
+Method 2: Using 7-Zip File Manager
+Launch 7-Zip File Manager: Open the 7-Zip File Manager and find the folder that has your split files.
+
+Select the First Split File: Click on the first split file in the sequence (e.g., output.z01).
+
+Combine the Files: Right-click on the file you selected, and choose Combine files from the context menu.
+
+Specify Destination: Pick the desired folder for the merged file and click OK.
+
+7-Zip will combine the split files back into the original file, saving it in the chosen destination folder.
